@@ -1,2 +1,2 @@
 # TopshelfOwinService
-Owin Topshelf Web Api
+Owin Topshelf Web Api with Swagger
