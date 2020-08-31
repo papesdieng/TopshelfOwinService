@@ -18,10 +18,7 @@ namespace WebApi
 				Formatting = Formatting.Indented,
 				Converters = new List<JsonConverter>
 				{
-					new StringEnumConverter
-					{
-						CamelCaseText = true
-					}
+					new StringEnumConverter()
 				},
 			};
 			JsonConvert.DefaultSettings = () => defaultSettings;
